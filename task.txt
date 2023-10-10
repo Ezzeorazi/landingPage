@@ -4,5 +4,6 @@
 -agregar datos css, etc.
 -agregar redes sociales, tendriamos que crearlas tambien...
 -
+-titulo para portfolio o nuestos proyectos
 -
 -
