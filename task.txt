@@ -9,7 +9,7 @@
 -celular...vams a poner alguno de los nuestros no mas?
 -parte de contacto con email, lo vamos a hacer con format??
 -redes sociales... Las vamos a crear? si o si, de ahi vamos a meter mucha publicidad
--ver estilos css
+-agregar boton de whats app
 -chequear responsive desing
 -agregar datos css, etc.
 -agregar redes sociales, tendriamos que crearlas tambien...
