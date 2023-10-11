@@ -11044,6 +11044,7 @@ body {
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
+  
 }
 
 .btn {
@@ -11087,6 +11088,7 @@ body {
     font-size: 4rem;
     line-height: 4rem;
   }
+  
 }
 @media (min-width: 992px) {
   .masthead {
@@ -11128,11 +11130,21 @@ body {
   padding: 3rem;
   font-size: 90%;
 }
+.img-logo {
+  width: 240px
+}
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
   }
 }
+
+@media (max-width: 720px){
+  .img-logo {
+    width: 150px
+  }
+}
+
 
 .signup-section {
   padding: 10rem 0;
