@@ -11137,11 +11137,18 @@ body {
   .projects-section .project-text {
     padding: 5rem;
   }
+ 
 }
 
 @media (max-width: 720px){
   .img-logo {
     width: 200px
+  }
+  #titulo {
+    font-size: 35px;
+  }
+  #titulo_text {
+    font-size: 12px;
   }
 }
 
