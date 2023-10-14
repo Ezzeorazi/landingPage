@@ -1,17 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-
-
- */
 
 
 :root {
@@ -11079,8 +11066,8 @@ body {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/img/fondo.jpg");
+  padding: 1rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/landingPage/img/fondo.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11102,7 +11089,7 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
   }
   
@@ -11113,7 +11100,7 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
+    font-size: 6rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
@@ -11172,7 +11159,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/landingPage/img/bg-signup.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
