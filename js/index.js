@@ -61,3 +61,4 @@ document.addEventListener("DOMContentLoaded", function() {
       titulo.style.transform = "translateY(0)";
     }, 100);
   });
+

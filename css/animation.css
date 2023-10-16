@@ -1,0 +1,29 @@
+.tracking-in-contract-bck-bottom{
+    animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.55,.055,.675,.19) .5s both}
+
+
+ @keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;
+    transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);
+        opacity:1}}
+
+        @keyframes show {
+            from {
+                opacity: 0;
+                scale: 25%;
+            }
+            to {
+                opacity: 1;
+                scale: 100%;
+            }
+          }
+      
+          .card {
+            view-timeline-name: --revealing-image;
+
+            animation-name: show;
+            animation-fill-mode: both;
+            animation-timeline: --revealing-image;
+            animation-range: entry 20% cover 30%;
+          }
+      
+         
