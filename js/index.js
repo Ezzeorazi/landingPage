@@ -52,3 +52,12 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var titulo = document.getElementById("titulo");
+    titulo.style.transform = "translateY(100%)";
+    titulo.style.opacity = "1";
+    setTimeout(function() {
+      titulo.style.transform = "translateY(0)";
+    }, 100);
+  });
