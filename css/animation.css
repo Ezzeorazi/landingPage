@@ -26,4 +26,34 @@
             animation-range: entry 20% cover 30%;
           }
       
-         
+#projects {
+    view-timeline-name: --revealing-image;
+
+    animation-name: scale-in-hor-center;
+    animation-fill-mode: both;
+    animation-timeline: --revealing-image;
+    animation-range: entry 25% cover 50%;}
+
+    @keyframes scale-in-hor-center{0%{transform:scaleX(0);opacity:1}100%{transform:scaleX(1);opacity:1}}
+
+
+
+    .slide-in-right{view-timeline-name: --revealing-image;
+
+        animation-name: slide-in-right;
+        animation-fill-mode: both;
+        animation-timeline: --revealing-image;
+        animation-range: entry 10% cover 30%;}
+
+    .slide-in-left{
+        view-timeline-name: --revealing-image;
+
+    animation-name: slide-in-left;
+    animation-fill-mode: both;
+    animation-timeline: --revealing-image;
+    animation-range: entry 10% cover 30%;}
+
+    @keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+    @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
