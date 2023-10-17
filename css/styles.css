@@ -11085,7 +11085,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  
 }
+
 .masthead h1, .masthead .h1 {
   font-family: monospace;
   font-size: 3.5rem;
