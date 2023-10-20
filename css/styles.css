@@ -11191,3 +11191,20 @@ body {
   transition: opacity 3s, transform 3s; /* Duración de 1 segundo para ambas propiedades */
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  opacity: 1; /* placeholder text fully opaque */
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+input,
+textarea,
+select {
+  background-color: transparent !important;
+  color: white !important;
+}
