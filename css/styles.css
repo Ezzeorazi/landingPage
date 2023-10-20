@@ -11072,6 +11072,7 @@ body {
 @media (max-width: 767px) {
   .masthead {
       background-image: url('/img/fondo-small.png');
+      height: 700px;
   }
 }
 
