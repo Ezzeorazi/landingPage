@@ -11069,6 +11069,11 @@ body {
     background-attachment: fixed;
     height: 500px;
 }
+@media (max-width: 767px) {
+  .masthead {
+      background-image: url('/img/fondo-small.png');
+  }
+}
 
 .masthead h1 {
   color: white;
