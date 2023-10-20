@@ -11063,7 +11063,7 @@ body {
 }
 
 .masthead{
-  background-image: url('/img/fondo.png');
+  background-image: url('/img/fondo.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11071,7 +11071,7 @@ body {
 }
 @media (max-width: 767px) {
   .masthead {
-      background-image: url('/img/fondo-small.png');
+      background-image: url('/img/fondo-small.webp');
       height: 700px;
   }
 }
