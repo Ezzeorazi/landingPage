@@ -310,16 +310,33 @@
 
 
 <!-- Signup-->
-<section class="masthead" id="signup" style="height: 550px;">
+<section class="masthead" id="signup" style="height: 680px;">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5">
       <div class="col-md-12 col-lg-8 mx-auto text-center">
         <i class="far fa-paper-plane fa-2x m-4 text-white"></i>
-        <h2 class="text-white mb-4">Envianos tu email y consulta, para que nos pongamos en contacto.</h2>
+        <h2 class="text-white mb-4">Contactanos</h2>
       <form action="https://formsubmit.co/7a3e660869721db4c8c655f2b3bc13d0" method="POST">
       <div class="mb-2">
         <label for="exampleFormControlInput1" class="form-label text-white">Email</label>
         <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+      </div>
+      <div class="mb-2">
+        <label for="companyName" class="form-label text-white">Nombre de Empresa</label>
+        <input type="text" name="company" class="form-control" id="companyName" placeholder="Nombre de Empresa">
+      </div>
+      <div class="mb-2">
+        <label for="phone" class="form-label text-white">Teléfono</label>
+        <input type="text" name="phone" class="form-control" id="phone" placeholder="Teléfono">
+      </div>
+      <div class="mb-2">
+        <label for="country" class="form-label text-white">País</label>
+        <select name="country" class="form-select" id="country">
+          <option value="">Seleccione un país</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <!-- Añade más opciones de país según sea necesario -->
+        </select>
       </div>
       <div class="mb-2">
         <label for="exampleFormControlTextarea1" class="form-label text-white slide-in-right">Mensaje</label>
@@ -331,6 +348,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- whats app button -->
 <a href="https://wa.me/543413804322?text=Hola,%20estoy%20interesado%20en%20sus%20servicios" target="_blank">
