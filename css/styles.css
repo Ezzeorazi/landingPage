@@ -11209,3 +11209,19 @@ select {
   color: white !important;
 }
 
+
+.card {
+  position: relative;
+  /* Otros estilos de tu card */
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #0e525e;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  z-index: 1; /* Asegurarse de que la etiqueta esté por encima de otros elementos */
+}
